@@ -1,0 +1,14 @@
+{
+  "name": "Simple Fly",
+  "short_name": "simple-fly",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000",
+  "description": "Simple Fly",
+  "icons": [],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

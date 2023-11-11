@@ -1,10 +1,13 @@
 import * as THREE from "three";
+import { myAlert } from "./alert";
+import { GamepadUtils } from "./gamepad";
 
 export class Game {
   private scene: THREE.Scene;
   private camera: THREE.PerspectiveCamera;
   private renderer: THREE.WebGLRenderer;
   private cube: THREE.Mesh;
+  private gamepadUtils = new GamepadUtils();
 
   public constructor() {
     this.scene = new THREE.Scene();

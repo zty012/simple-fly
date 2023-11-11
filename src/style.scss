@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#messages {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 220px;
+  z-index: 1;
+
+  > .alert {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    animation: showAlert 0.3s;
+    transition: 0.3s;
+    margin-bottom: 10px;
+
+    @mixin hide {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+
+    &.hide {
+      @include hide();
+    }
+
+    @keyframes showAlert {
+      from {
+        @include hide();
+      }
+    }
+  }
+}

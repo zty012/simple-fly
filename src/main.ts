@@ -1,4 +1,6 @@
-import "./style.css";
+import "./style.scss";
 import { Game } from "./game";
 
-new Game();
+document.addEventListener("DOMContentLoaded", () => {
+  new Game();
+});
