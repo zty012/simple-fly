@@ -7,6 +7,6 @@ export function myAlert(message: string) {
     div.classList.add("hide");
     setTimeout(() => {
       div.remove();
-    }, 1000);
+    }, 300);
   }, 2000);
 }

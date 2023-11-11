@@ -112,6 +112,13 @@
   resolved "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.18.20.tgz#786c5f41f043b07afb1af37683d7c33668858f6d"
   integrity sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==
 
+"@splinetool/loader@^0.9.496":
+  version "0.9.496"
+  resolved "https://registry.npmmirror.com/@splinetool/loader/-/loader-0.9.496.tgz#b9ee611e529fca05a44afdbac8208e1eb868e08b"
+  integrity sha512-/Ri3gQb++gsln9hTbHuX+SBgUokZ+YoypUWRtUeDt+7GGQ+b9iCKvEyyhtgdPRh8O0IBRR1ehSDoMrDyl4bVug==
+  dependencies:
+    semver-compare "^1.0.0"
+
 "@types/stats.js@*":
   version "0.17.3"
   resolved "https://registry.npmmirror.com/@types/stats.js/-/stats.js-0.17.3.tgz#705446e12ce0fad618557dd88236f51148b7a935"
@@ -304,6 +311,11 @@ sass@^1.69.5:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
